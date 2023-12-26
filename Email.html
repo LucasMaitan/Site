@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="StyleEmail.css">
     <title>Formulário de Email</title>
@@ -11,12 +12,14 @@
         <h2>Contato</h2>
         <form action="https://api.staticforms.xyz/submit" method="post">
             <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
             <label>Email</label>
-            <input type="Email" name="Email" placeholder="Digite seu Email" autocomplete="off">
+            <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+            <label>Telefone</label>
+            <input type="text" name="phone" placeholder="Telefone para contato" autocomplete="off">
             <label>Mensagem</label>
-            <textarea name="Message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-            <button type="submit">Enviar</button>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>  
 
             <input type="hidden" name="accessKey" value="872192d8-eca8-46e9-a3a7-6ab24d1232bd">
             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/agradecimento.html">

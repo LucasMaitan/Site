@@ -26,8 +26,8 @@ section{
 
 section h2{
     color: aliceblue;
-    font-size: 2.5rem;
-    margin: 2rem;
+    font-size: 2rem;
+    margin: 1rem;
 }
 
 section form {
@@ -47,7 +47,7 @@ form input{
     padding: 15px;
     outline: none;
     border: 0;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     font-size: 15px;
     transition: all 0.5s;
 }
@@ -107,7 +107,7 @@ form button:hover{
     background: aliceblue;
     text-decoration: none;
     color: #8b949b;
-    font-size: 10px;
+    font-size: 15px;
     transition: all 0.5s;
 }
 .btn:hover{
