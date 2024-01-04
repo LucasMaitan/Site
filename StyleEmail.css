@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #8b949b;
+    background: #032844;
 }
 
 section{
@@ -19,7 +19,7 @@ section{
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    background: #656472;
+    background: #111825;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
@@ -102,14 +102,14 @@ form button:hover{
     color: aliceblue;
     margin-bottom: 50px;
 }
-.btn{
+#BotaoClose {
     padding: 15px 55px;
     background: aliceblue;
     text-decoration: none;
-    color: #8b949b;
+    color: #4d5358;
     font-size: 15px;
     transition: all 0.5s;
 }
-.btn:hover{
+#BotaoClose:hover{
     border-radius: 16px;
 }
